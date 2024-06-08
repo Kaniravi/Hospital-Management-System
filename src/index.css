@@ -1,0 +1,580 @@
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   width: 90%;
+   
+   
+  
+  
+}
+.form{
+  border: 4px solid rgb(200, 51, 51);
+  outline:none;
+  min-height: 200vh;
+  
+
+  
+}
+
+
+
+.reg{
+  height: 100vh;
+}
+.container{
+  
+  background-color: rgb(252, 248, 248);
+  padding: 10px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  
+  
+}
+.login{
+  margin-left: 5%;
+}
+
+.navbar,
+.login{
+  
+  margin-top: 10px;
+ 
+}
+
+a{
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 10px;
+  color: darkred;
+  font-weight: bold;
+}
+
+.firstRow{
+  display: flex;
+  
+  
+}
+.col1,
+.col2{
+  flex: 1;
+   margin: 0 5px;
+  
+}
+
+.firstRow img{
+ width: 100%;
+ height: 100%;
+  height: auto;
+}
+
+.col1 img{
+  height: 100%;
+}
+.col2 img{
+  height: 100%;
+}
+
+.col3{
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.col3{
+  border: 3px solid brown;
+  outline:none;
+  border-radius: 20px;
+  margin-left:15px;
+  cursor: pointer;
+  background-color: rgba(249, 254, 255, 0.786);
+  box-shadow: 3px 3px 3px brown;
+  color: rgb(14, 93, 251);
+ 
+}
+.col3:hover{
+  transform: translateY(-3px);
+}
+
+.col3 img{
+  display:inline-block;
+  margin: 10px;
+  max-width: 90%;
+  max-height: 100%;
+  background-size: cover;
+}
+.doctorInfo h4, h5,h6{
+  margin: 8px 5px;
+ 
+}
+.footer {
+  display: flex;
+}
+
+.col4 {
+  flex: 1;
+  margin-left:50px;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.col4:last-child {
+  margin-right: 0;
+}
+
+
+.footer a{
+  display: flex;
+  flex: 1;
+  flex-wrap: nowrap;
+}
+
+.col4 h3{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: darkred;
+  margin-bottom: 30px;
+  
+}
+.col4 p{
+  color:darkred;
+  font-weight: bold;
+}
+
+hr{
+  width: 90%;
+  border: 1px solid beige;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col4{
+  margin-bottom: 20px;
+}
+
+.col4 a{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+.bottom{
+  text-align: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 40%;
+  display: flex;
+  margin-bottom: 10px;
+
+  
+}
+.bottom h3{
+  margin-right: 10px;
+  color:brown;
+}
+
+.button{
+  padding: 10px;
+  width: 10%;
+  outline:none;
+  border:2px solid brown;
+  background-color:rgb(175, 18, 18) ;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footerHr{
+  margin-bottom: 3px;
+  margin-top:5px;
+}
+
+.form1{
+  height: auto;
+  max-width: 40%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  border: 2px solid brown;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: rgb(211, 249, 236);
+  
+}
+
+.form1 h3{
+  padding: 10px;
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+}
+
+
+.firstCol{
+  float:left;
+  display: flex;
+  flex-direction:column;
+  margin-left: 30px;
+}
+
+.secondCol{
+  float:right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.lable{
+  color: darkred;
+  font-weight: bold;
+}
+
+.input{
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 110%;
+  border-radius: 10px;
+  background-color: white;
+  outline:none;
+  
+
+}
+.input:hover{
+  box-shadow: 3px 3px 3px brown;
+}
+
+ textarea{
+  border: 2px solid black;
+}
+
+
+.buttonAdmin{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: darkred;
+    color:white;
+    font-weight: bold;
+    outline:none;
+    cursor: pointer;
+
+
+}
+
+.buttonAdmin:hover{
+  background-color: brown;
+}
+
+select{
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.btns{
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-right: 24%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+ display: inline-block;
+
+  
+}
+
+.form2{
+  margin: 0 auto;
+  border: 2px solid brown;
+  width: 25%;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: rgb(211, 249, 236);;
+}
+
+.inputLogin{
+  padding: 8px;
+  display: flex;
+  width: 70%;
+  margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.labelLogin{
+  display:flex;
+  margin-left: 5px;
+  color:brown;
+  font-weight: bold;
+  margin-bottom: 3px;
+
+}
+
+.buttonLogin{
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  outline:none;
+}
+
+.form2 h3{
+  background-color: brown;
+  padding: 8px;
+  color:white;
+
+}
+
+.form{
+  height: 100vh;
+}
+
+.photo{
+  
+  float:left;
+  padding: 10px;
+  margin-right: 50%;
+  margin-left: 10%;
+  font-weight: bold;
+  color: darkred;
+  
+}
+
+.photoInput{
+  width: 40%;
+  margin-right: 80%;
+  margin-left: 30px;
+  margin-top:10px;
+  border: 2px solid black;
+}
+
+
+.tableDoctor{
+  margin: 0 auto;
+  border: 2px solid brown;
+  width: 95%;
+  height: auto;
+  
+  border-collapse: collapse;
+}
+td, th{
+  border: 1px solid brown;
+  padding: 10px;
+  font-weight: bold;
+
+}
+th{
+  padding: 10px;
+  background-color: brown;
+  color:white;
+
+}
+
+.tableHeading{
+  background-color: brown;
+  color:white;
+  font-weight: bold;
+}
+
+.buttonLogin{
+  cursor: pointer;
+  padding:5px;
+  display: inline;
+}
+
+.appointment{
+  margin-left: 35%
+}
+
+.app{
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.appLable{
+  margin-right: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.tableAppointment{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 3px solid brown;
+  width: 95%;
+
+}
+
+.tableHeader{
+  background-color: brown;
+  color:white;
+  font-weight: bold;
+}
+
+
+
+.appointmentHeader{
+  background-color: brown;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.buttonLogin:disabled{
+  background-color: rgb(245, 118, 118);
+  
+}
+
+.assignForm{
+
+  width: 30%;
+  margin: 20px auto;
+  border: 2px solid brown;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: rgb(211, 249, 236);
+}
+
+
+.assignHeader{
+  background-color: brown;
+  color:white;
+  font-weight: bold;
+  padding:8px;
+}
+
+
+.assignLabel{
+   margin-right:60%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color:brown;
+   font-weight: bold;
+}
+
+.assignInput{
+  width: 40%;
+  margin-left:10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.buttonAssign{
+  padding: 8px;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: brown;
+  color:white;
+  font-weight: bold;
+  cursor: pointer;
+  outline:none;
+  border-radius: 10px;
+}
+
+.buttonAssign:hover{
+  background-color: rgb(216, 40, 40);
+}
+
+.doctorPage{
+  margin-left: 40%;
+}
+
+.tableDoctorHeader{
+  background-color: brown;
+  padding: 8px;
+  color:white;
+  font-weight: bold;
+
+}
+
+.tableDoctorApp{
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 2px solid brown;
+  width:98%;
+  
+}
+.tableDoctorHead{
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+}
+
+.doctorUpdate{
+  background-color: brown;
+  color:white;
+  font-weight: bold;
+  outline:none;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.updateForm{
+  width: 40%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid brown;
+  border-radius: 10px;
+  background-color: rgb(211, 249, 236);
+}
+
+.updateHeader{
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.updateLabel{
+  margin-right: 70%;
+  color:brown;
+  font-weight: bold;
+}
+
+.updateInput{
+  width: 32%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color:black;
+  font-weight: 400;
+}
+
+.buttonUpdate{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  margin-left: 10px;
+  background-color: brown;
+  padding: 8px;
+  color:white;
+  font-weight: bold;
+  border-radius: 8px;
+
+}
